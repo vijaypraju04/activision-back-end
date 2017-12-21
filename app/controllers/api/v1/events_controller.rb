@@ -11,8 +11,8 @@ class Api::V1::EventsController < ApplicationController
 
   def create
     @event = Event.create(event_params)
-    @event.categories << Category.find_by(id: params[:category])
-    @event.users << User.find_by(id: params[:userId])
+    @event.categories << Category.create(id: params[:category])
+    @event.users << User.create(id: params[:userId])
     @event.save
 
     # @event_category = EventCategory.create(event_id: @event.id, category_id: params[:category][:id])

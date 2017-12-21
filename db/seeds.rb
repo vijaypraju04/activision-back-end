@@ -17,6 +17,9 @@ Men who harass and hurt women are finally losing their jobs. Now it's his turn.
 #WeBelievetheWomen #HisTurn", picture: "nothing", address: "1211 Avenue of the Americas, New York", date: "December 14, 2017", time: "5:30 PM")
 
 Category.create(name: "Protest")
+Category.create(name: "Community Building")
+Category.create(name: "Volunteering")
+Category.create(name: "Vigil")
 
 UserEvent.create(user_id: 1, event_id: 1)
 
