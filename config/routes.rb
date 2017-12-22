@@ -6,8 +6,13 @@ Rails.application.routes.draw do
     resources :events, only: [:index, :show, :create]
     resources :categories, only: [:index, :show, :create]
     resources :user_events, only: [:index, :show, :create]
+    resources :relationships, only: [:index, :create]
+    # resources :users do
+    #     get :following, :followers
+    # end
     post '/login', to: 'sessions#create'
     get '/current_user', to: 'sessions#show'
+    post '/relationships/unfollow', to: 'relationships#destroy'
   end
 end
 end
