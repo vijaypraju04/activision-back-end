@@ -16,7 +16,7 @@ We will gather outside the NYC headquarters of Fox News, 1211 Avenue of the Amer
 
 Men who harass and hurt women are finally losing their jobs. Now it's his turn.
 
-#WeBelievetheWomen #HisTurn", picture: "nothing", address: "1211 Avenue of the Americas, New York", date: "December 14, 2017", time: "5:30 PM")
+#WeBelievetheWomen #HisTurn", picture: "nothing", address: "1211 Avenue of the Americas, New York", date: "December 14, 2017", time: "5:30 PM", lat: '40.758464', lon: '-73.981806')
 
 Category.create(name: "Protest")
 Category.create(name: "Community Building")
