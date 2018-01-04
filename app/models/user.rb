@@ -27,4 +27,8 @@ def following?(other)
   following.include?(other)
 end
 
+def relationships
+  passive_relationships + active_relationships
+end
+
 end

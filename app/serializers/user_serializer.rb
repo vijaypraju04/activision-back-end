@@ -3,5 +3,7 @@ class UserSerializer < ActiveModel::Serializer
   has_many :events
   has_many :categories
   has_many :user_events
-  # has_many :relationships
+  has_many :followers
+  has_many :following
+
 end
